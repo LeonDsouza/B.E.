@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "web": "https://www.cia.gov/library/publications/the-world-factbook/"
+    }
+  ], 
+  "description": "### Description\r\n\r\nUS government profiles of countries and territories around the world. Information on geography, people, government, transportation, economy, communications, etc.\r\n\r\n### Openness: OPEN\r\n\r\n  * License: Public Domain: \"The Factbook is in the public domain. Accordingly, it may be copied freely without permission of the Central Intelligence Agency (CIA).\" [Source](https://www.cia.gov/library/publications/the-world-factbook/docs/contributor_copyright.html)\r\n  * Access:\r\n    * web: yes. (CIA website)\r\n    * bulk: yes. (see download link)\r\n\r\nA partial RDF conversion is available in package:world-factbook-fu-berlin.", 
+  "license": {
+    "type": "other-open", 
+    "title": "Other (Open)"
+  }, 
+  "title": "The CIA World Factbook", 
+  "keywords": [
+    "access-bulk", 
+    "access-www", 
+    "cia-world-factbook", 
+    "gdp", 
+    "gov", 
+    "size-large", 
+    "size-mb", 
+    "statistics", 
+    "us", 
+    "world"
+  ], 
+  "resources": [
+    {
+      "url": "https://www.cia.gov/library/publications/download/download-2009/factbook.zip", 
+      "name": "2009-download", 
+      "title": "2009 Download"
+    }, 
+    {
+      "url": "https://www.cia.gov/library/publications/download/", 
+      "title": "Download page", 
+      "name": "download-page", 
+      "format": "HTML"
+    }, 
+    {
+      "url": "https://www.cia.gov/library/publications/download/download-2013/factbook.zip", 
+      "title": "2013 Download", 
+      "name": "2013-download", 
+      "format": "HTML"
+    }
+  ], 
+  "name": "cia-world-factbook"
+}
